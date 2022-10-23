@@ -1,13 +1,1 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
-body {
-  font-family: Rubik;
-  background-color: #EEF1FF;
-}
-
-.bgc_color {
-  background-color: red;
-}
-
-.small-pic {
-  width: 25vw;
-}/*# sourceMappingURL=main.css.map */
+@import"https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap";body{font-family:Rubik;background-color:#eef1ff}.bgc_color{background-color:red}.small-pic{width:25vw}h1,h2,h3,h4,h5,h6{color:#b1b2ff}.display-1{font-weight:bold}.btn-outline-primary{border-color:#aac4ff}/*# sourceMappingURL=main.css.map */
