@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+body {
+  font-family: Rubik;
+  background-color: #EEF1FF;
+}
+
+.bgc_color {
+  background-color: red;
+}
+
+.small-pic {
+  width: 25vw;
+}/*# sourceMappingURL=main.css.map */
