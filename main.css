@@ -1,1 +1,77 @@
-@import"https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap";body{font-family:Rubik;background-color:#eef1ff}.bgc_color{background-color:red}.small-pic{width:25vw}h1,h2,h3,h4,h5,h6{color:#b1b2ff}.display-1{font-weight:bold}.btn-outline-primary{border-color:#aac4ff}/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+body {
+  font-family: Rubik;
+  background-color: #EEF1FF;
+}
+
+/*Mixing media queries*/
+.centerPcRightMobile {
+  display: flex;
+}
+@media (max-width: 1600px) {
+  .centerPcRightMobile {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .centerPcRightMobile {
+    align-items: flex-start;
+    justify-content: left;
+  }
+}
+@media (max-width: 600px) {
+  .centerPcRightMobile {
+    align-items: flex-start;
+    justify-content: left;
+  }
+}
+
+.small-pic {
+  width: 25vw;
+}
+
+.logo-pic {
+  width: 50px;
+  height: 50px;
+}
+
+/* Modify the background color */
+.navbar-custom {
+  background-color: #EEF1FF;
+}
+
+.smallIcon {
+  width: 40px;
+  height: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #B1B2FF;
+}
+
+.display-1 {
+  font-weight: bold;
+}
+
+.btn-outline-primary {
+  border-color: #AAC4FF;
+}
+
+.containerTextCenter {
+  position: relative;
+  text-align: center;
+}
+
+.centeredText {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,107 @@
+// @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+//color https: //colorhunt.co/palette/b1b2ffaac4ffd2daffeef1ff
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+$backColor: #EEF1FF;
+$textColor: #AAC4FF;
+$textSize: 1.3rem;
+$headSize: 2em;
+$headColor: #B1B2FF;
+$baseWidth: 100vw;
+$basefont: Rubik;
+
+// EEF1FF D2DAFF AAC4FF B1B2FF
+body {
+    font-family: $basefont;
+    background-color: $backColor;
+}
+
+/*Mixing media queries*/
+@mixin destop {
+    @media (max-width:1600px) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media (max-width:800px) {
+        @content
+    }
+}
+
+@mixin mobile {
+    @media (max-width:600px) {
+        @content
+    }
+}
+
+.centerPcRightMobile {
+    display: flex;
+
+
+    @include destop {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    @include tablet {
+        align-items: flex-start;
+        justify-content: left;
+    }
+
+    @include mobile {
+        align-items: flex-start;
+        justify-content: left;
+    }
+}
+
+.small-pic {
+    width: 25vw;
+}
+
+.logo-pic {
+    width: 50px;
+    height: 50px;
+}
+
+/* Modify the background color */
+.navbar-custom {
+    background-color: $backColor;
+}
+
+.smallIcon {
+    width: 40px;
+    height: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $headColor;
+}
+
+.display-1 {
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    border-color: $textColor;
+}
+
+.containerTextCenter {
+    position: relative;
+    text-align: center;
+    //color: white;
+}
+
+.centeredText {
+    position: absolute;
+    //top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
