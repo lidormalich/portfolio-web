@@ -1,0 +1,13 @@
+
+*.text
+*.scss
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+*.tar
+*.rar
+*.7z
+.vscode
+*.csss
+*.css.map
