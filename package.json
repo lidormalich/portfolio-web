@@ -2,7 +2,6 @@
     "name": "lidor-portfolio",
     "version": "1.0.0",
     "description": "Lidor Malich - Professional Portfolio with Bilingual Support (English/Hebrew)",
-    "homepage": "https://lidormalich.github.io/portfolio-web",
     "private": true,
     "dependencies": {
         "react": "^18.2.0",
