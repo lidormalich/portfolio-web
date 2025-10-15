@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useLanguage } from "../../LanguageContext";
-import "./Navbar.css";
+import { useLanguage } from "../LanguageContext";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
   const { t } = useLanguage();

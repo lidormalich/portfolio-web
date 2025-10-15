@@ -1,8 +1,11 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope } from "react-icons/fa";
-import "./Hero.css";
+import { useLanguage } from "../LanguageContext";
+import "../styles/Hero.css";
 
 const Hero = () => {
+  const { t } = useLanguage();
+
   return (
     <section
       id='hero'
@@ -11,17 +14,13 @@ const Hero = () => {
         <div className='hero-text'>
           <div className='greeting'>
             <span className='wave'>👋</span>
-            <span>Hello, I'm</span>
+            <span>{t.hero.greeting}</span>
           </div>
           <h1 className='hero-title'>
-            <span className='gradient-text'>Lidor Malich</span>
+            <span className='gradient-text'>{t.hero.name}</span>
           </h1>
-          <h2 className='hero-subtitle'>Full Stack Developer</h2>
-          <p className='hero-description'>
-            Passionate software engineer specializing in modern web
-            technologies. I create elegant solutions to complex problems and
-            love building applications that make a difference.
-          </p>
+          <h2 className='hero-subtitle'>{t.hero.title}</h2>
+          <p className='hero-description'>{t.hero.description}</p>
 
           <div className='hero-buttons'>
             <a
@@ -29,7 +28,7 @@ const Hero = () => {
               target='_blank'
               rel='noopener noreferrer'
               className='btn btn-primary'>
-              Download Resume
+              {t.hero.downloadResume}
             </a>
             <a
               href='#contact'
@@ -40,7 +39,7 @@ const Hero = () => {
                   .getElementById("contact")
                   .scrollIntoView({ behavior: "smooth" });
               }}>
-              Contact Me
+              {t.hero.contactMe}
             </a>
           </div>
 

@@ -1,8 +1,8 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import { useLanguage } from "../../LanguageContext";
-import ProjectImage from "../ProjectImage";
-import "./Projects.css";
+import { useLanguage } from "../LanguageContext";
+import ProjectImage from "./ProjectImage";
+import "../styles/Projects.css";
 
 const Projects = () => {
   const { t } = useLanguage();

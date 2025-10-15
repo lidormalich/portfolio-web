@@ -1,7 +1,7 @@
 import React from "react";
-import { useLanguage } from "../../LanguageContext";
-import { calculateAge } from "../../utils/calculateAge";
-import "./About.css";
+import { useLanguage } from "../LanguageContext";
+import { calculateAge } from "../utils/calculateAge";
+import "../styles/About.css";
 
 const About = () => {
   const { t } = useLanguage();

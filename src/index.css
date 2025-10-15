@@ -30,6 +30,31 @@ html {
     scroll-behavior: smooth;
 }
 
+/* RTL Support for Hebrew */
+html[dir="rtl"] {
+    direction: rtl;
+}
+
+html[dir="rtl"] .navbar-menu {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .hero-content {
+    direction: rtl;
+}
+
+html[dir="rtl"] .about-content,
+html[dir="rtl"] .skills-grid,
+html[dir="rtl"] .projects-grid,
+html[dir="rtl"] .contact-content {
+    direction: rtl;
+}
+
+html[dir="rtl"] .nav-link::after {
+    right: auto;
+    left: 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;

@@ -12,9 +12,12 @@ import {
   FaLinux,
 } from "react-icons/fa";
 import { SiCplusplus, SiCsharp, SiMongodb, SiMysql, SiC } from "react-icons/si";
-import "./Skills.css";
+import { useLanguage } from "../LanguageContext";
+import "../styles/Skills.css";
 
 const Skills = () => {
+  const { t } = useLanguage();
+
   const skillsData = [
     { name: "React", icon: <FaReact />, level: 90, color: "#61DAFB" },
     { name: "JavaScript", icon: <FaJs />, level: 95, color: "#F7DF1E" },
@@ -38,11 +41,9 @@ const Skills = () => {
       id='skills'
       className='skills'>
       <div className='section-header'>
-        <h2 className='section-title'>Skills & Technologies</h2>
+        <h2 className='section-title'>{t.skills.title}</h2>
         <div className='title-underline'></div>
-        <p className='section-subtitle'>
-          Technologies I've been working with recently
-        </p>
+        <p className='section-subtitle'>{t.skills.subtitle}</p>
       </div>
 
       <div className='skills-grid'>
@@ -75,20 +76,20 @@ const Skills = () => {
 
       <div className='skills-categories'>
         <div className='category-card'>
-          <h3>Frontend</h3>
-          <p>React, JavaScript, HTML5, CSS3, SASS, Bootstrap</p>
+          <h3>{t.skills.frontend}</h3>
+          <p>{t.skills.frontendDesc}</p>
         </div>
         <div className='category-card'>
-          <h3>Backend</h3>
-          <p>Node.js, Java, C++, C#, C</p>
+          <h3>{t.skills.backend}</h3>
+          <p>{t.skills.backendDesc}</p>
         </div>
         <div className='category-card'>
-          <h3>Database</h3>
-          <p>MongoDB, MySQL, SQL</p>
+          <h3>{t.skills.database}</h3>
+          <p>{t.skills.databaseDesc}</p>
         </div>
         <div className='category-card'>
-          <h3>Tools & Others</h3>
-          <p>Git, Linux, REST APIs, Responsive Design</p>
+          <h3>{t.skills.tools}</h3>
+          <p>{t.skills.toolsDesc}</p>
         </div>
       </div>
     </section>
