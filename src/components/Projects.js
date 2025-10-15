@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { useLanguage } from "../LanguageContext";
 import ProjectImage from "./ProjectImage";
@@ -6,6 +6,7 @@ import "../styles/Projects.css";
 
 const Projects = () => {
   const { t } = useLanguage();
+  const [hoveredProject, setHoveredProject] = useState(null);
 
   const projectsData = [
     // 1. CRM SMS - הפרויקט הכי מקצועי שלך
@@ -83,13 +84,19 @@ const Projects = () => {
           <div
             className='project-card'
             key={index}
-            style={{ animationDelay: `${index * 0.1}s` }}>
+            style={{ animationDelay: `${index * 0.1}s` }}
+            onMouseEnter={() => setHoveredProject(index)}
+            onMouseLeave={() => setHoveredProject(null)}>
             <div className='project-image'>
               <ProjectImage
                 title={project.title}
                 gradient={project.gradient}
+                isHovered={hoveredProject === index}
               />
-              <div className='project-overlay'>
+              <div
+                className={`project-overlay ${
+                  hoveredProject === index ? "active" : ""
+                }`}>
                 <div className='project-links'>
                   <a
                     href={project.github}

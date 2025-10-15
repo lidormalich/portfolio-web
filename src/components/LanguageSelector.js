@@ -23,10 +23,10 @@ const LanguageSelector = () => {
       <button
         className='language-selector-button'
         onClick={() => setIsOpen(!isOpen)}
-        aria-label='Select Language'>
-        <span className='flag'>{currentLang.flag}</span>
-        <span className='lang-code'>{currentLang.code.toUpperCase()}</span>
-        <span className='arrow'>{isOpen ? "▲" : "▼"}</span>
+        aria-label='Select Language'
+        title={`Current: ${currentLang.name}`}>
+        <span className='globe-icon'>🌍</span>
+        <span className='current-flag'>{currentLang.flag}</span>
       </button>
 
       {isOpen && (
@@ -40,6 +40,7 @@ const LanguageSelector = () => {
               onClick={handleLanguageChange}>
               <span className='flag'>{lang.flag}</span>
               <span className='lang-name'>{lang.name}</span>
+              {language === lang.code && <span className='checkmark'>✓</span>}
             </button>
           ))}
         </div>

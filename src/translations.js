@@ -41,7 +41,7 @@ export const translations = {
       expertiseDesc2: "TypeScript & React Development",
       expertiseDesc3: "Android Firmware & Kosher Tech",
       location: "Location",
-      locationDesc1: "Jerusalem, Israel",
+      locationDesc1: "Petah Tikva, Israel",
       locationDesc2: "Available for remote work",
     },
 
@@ -125,7 +125,7 @@ export const translations = {
       paragraph1:
         "אני מפתח Full Stack מירושלים עם תשוקה ליצירת פתרונות חדשניים ויעילים. סיימתי בהצלחה לימודי הנדסת תוכנה מעשית והשלמתי קורס מקיף לפיתוח Web FullStack במכללת HackerU, שם שלטתי בטכנולוגיות ושיטות פיתוח מודרניות.",
       paragraph2:
-        "המומחיות שלי משתרעת על TypeScript, React, Java, C# ופריימוורקים מודרניים. בניתי אפליקציות ברמה ארגונית כולל מערכות CRM עם אינטגרציית SMS, פלטפורמות כרטיסי ביקור דיגיטליים וכלי מעבדה מקיפים. אני מתמחה ביצירת אפליקציות ניתנות להרחבה עם ארכיטקטורה נקייה וחוויית משתמש מעולה.",
+        "המומחיות שלי היא TypeScript, React, Java, C# ופריימוורקים מודרניים. בניתי אפליקציות ברמה ארגונית כולל מערכות CRM עם אינטגרציית SMS, פלטפורמות כרטיסי ביקור דיגיטליים וכלי מעבדה מקיפים. אני מתמחה ביצירת אפליקציות ניתנות להרחבה עם ארכיטקטורה נקייה וחוויית משתמש מעולה.",
       paragraph3:
         "אני מאמין בכתיבת קוד נקי וניתן לתחזוקה וביצירת חוויות משתמש יפות ופונקציונליות. עם ניסיון בעריכת קושחות אנדרואיד ופיתוח קושחות כשרות, אני מביא פרספקטיבה ייחודית להנדסת תוכנה. אני תמיד מחפש את ההזדמנות הבאה לצמוח, ללמוד ולתרום לפרויקטים משמעותיים.",
       yearsOld: "שנים",
@@ -133,14 +133,14 @@ export const translations = {
       repositories: "ריפוזיטורים",
       dedication: "מסירות",
       education: "השכלה",
-      educationDesc1: "הנדסת תוכנה מעשית",
+      educationDesc1: "הנדסאי תוכנה",
       educationDesc2: "HackerU - מפתח Web FullStack",
       expertise: "התמחות",
       expertiseDesc1: "מערכות CRM ארגוניות",
       expertiseDesc2: "פיתוח TypeScript ו-React",
       expertiseDesc3: "קושחות אנדרואיד וטכנולוגיה כשרה",
       location: "מיקום",
-      locationDesc1: "ירושלים, ישראל",
+      locationDesc1: "פתח תקווה, ישראל",
       locationDesc2: "זמין לעבודה מרחוק",
     },
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectImage = ({ title, gradient }) => {
+const ProjectImage = ({ title, gradient, isHovered }) => {
   const gradients = {
     purple: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
     blue: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -40,6 +40,10 @@ const ProjectImage = ({ title, gradient }) => {
   const textStyle = {
     position: "relative",
     zIndex: 1,
+    transition: "all 0.4s ease",
+    filter: isHovered ? "blur(2px)" : "none",
+    opacity: isHovered ? 0.4 : 1,
+    transform: isHovered ? "scale(0.95)" : "scale(1)",
   };
 
   return (

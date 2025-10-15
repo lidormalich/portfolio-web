@@ -80,7 +80,7 @@ const Hero = () => {
         <div className='hero-image'>
           <div className='image-wrapper'>
             <img
-              src='/media/20220711_152500.jpg'
+              src='https://github.com/lidormalich/portfolio-web/blob/main/public/media/20220711_152500.jpg?raw=true'
               alt='Lidor Malich'
             />
             <div className='image-border'></div>
