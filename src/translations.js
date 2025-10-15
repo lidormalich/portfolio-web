@@ -15,8 +15,8 @@ export const translations = {
       name: "Lidor Malich",
       title: "Full Stack Developer",
       description:
-        "Passionate Full Stack Developer from Jerusalem specializing in TypeScript, React, and enterprise-level applications. I create elegant, scalable solutions and bring unique expertise in Android firmware and kosher technology development.",
-      downloadResume: "Download Resume",
+        "Passionate Full Stack Developer from Petah Tikva specializing in TypeScript, React, and enterprise-level applications. I create elegant, scalable solutions and bring unique expertise in Android firmware and kosher technology development.",
+      downloadResume: "Show Resume",
       contactMe: "Contact Me",
     },
 
@@ -24,7 +24,7 @@ export const translations = {
     about: {
       title: "About Me",
       paragraph1:
-        "I'm a Full Stack Developer from Jerusalem with a passion for creating innovative and efficient solutions. I successfully graduated from practical software engineering studies and completed a comprehensive Web FullStack course at HackerU College, where I mastered modern web technologies and development practices.",
+        "I'm a Full Stack Developer with a passion for creating innovative and efficient solutions. I successfully graduated from practical software engineering studies and completed a comprehensive Web FullStack course at HackerU College, where I mastered modern web technologies and development practices.",
       paragraph2:
         "My expertise spans across TypeScript, React, Java, C#, and modern web frameworks. I've built enterprise-level applications including CRM systems with SMS integration, digital business card platforms, and comprehensive lab tools. I specialize in creating scalable, type-safe applications with clean architecture and exceptional user experience.",
       paragraph3:
@@ -111,11 +111,11 @@ export const translations = {
     // Hero Section
     hero: {
       greeting: "שלום, אני",
-      name: "לידור מאליח",
+      name: "לידור מליח",
       title: "מפתח Full Stack",
       description:
-        "מפתח Full Stack נלהב מירושלים המתמחה ב-TypeScript, React ואפליקציות ברמה ארגונית. אני יוצר פתרונות אלגנטיים וניתנים להרחבה ומביא מומחיות ייחודית בפיתוח קושחות אנדרואיד וטכנולוגיה כשרה.",
-      downloadResume: "הורד קורות חיים",
+        "מפתח Full Stack נלהב מפתח תקווה המתמחה ב-TypeScript, React ואפליקציות ברמה ארגונית. אני יוצר פתרונות אלגנטיים וניתנים להרחבה ומביא מומחיות ייחודית בפיתוח קושחות אנדרואיד וטכנולוגיה כשרה.",
+      downloadResume: "צפייה בקורות חיים",
       contactMe: "צור קשר",
     },
 
@@ -123,7 +123,7 @@ export const translations = {
     about: {
       title: "אודותיי",
       paragraph1:
-        "אני מפתח Full Stack מירושלים עם תשוקה ליצירת פתרונות חדשניים ויעילים. סיימתי בהצלחה לימודי הנדסת תוכנה מעשית והשלמתי קורס מקיף לפיתוח Web FullStack במכללת HackerU, שם שלטתי בטכנולוגיות ושיטות פיתוח מודרניות.",
+        "אני מפתח Full Stack  עם תשוקה ליצירת פתרונות חדשניים ויעילים. סיימתי בהצלחה לימודי הנדסת תוכנה מעשית והשלמתי קורס מקיף לפיתוח Web FullStack במכללת HackerU, שם שלטתי בטכנולוגיות ושיטות פיתוח מודרניות.",
       paragraph2:
         "המומחיות שלי היא TypeScript, React, Java, C# ופריימוורקים מודרניים. בניתי אפליקציות ברמה ארגונית כולל מערכות CRM עם אינטגרציית SMS, פלטפורמות כרטיסי ביקור דיגיטליים וכלי מעבדה מקיפים. אני מתמחה ביצירת אפליקציות ניתנות להרחבה עם ארכיטקטורה נקייה וחוויית משתמש מעולה.",
       paragraph3:
